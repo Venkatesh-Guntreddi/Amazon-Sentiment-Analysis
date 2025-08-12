@@ -1,3 +1,4 @@
+
 # Amazon Product Reviews Sentiment Analysis
 
 This project performs **sentiment analysis** on Amazon product reviews using Python. It classifies reviews as positive or negative based on their text content using machine learning techniques.
@@ -27,7 +28,7 @@ Sentiment analysis is a natural language processing (NLP) technique used to dete
 
 ### Why Logistic Regression?
 
-Logistic Regression is a simple yet effective algorithm for binary classification problems like this. It estimates the probability of a review belonging to each sentiment class based on the input features.
+Logistic Regression is a simple yet effective algorithm for binary classification problems like this. It estimates the probability of a review belonging to a positive or negative class based on the input features.
 
 ---
 
@@ -47,21 +48,35 @@ Install dependencies with:
 
 ```bash
 pip install pandas scikit-learn matplotlib wordcloud nltk
+```
 
 ---
 
 ## How to Run
-1. Clone or download this repository:
 
+Clone the repo:
+
+```bash
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
+```
 
-2.Open the Jupyter notebook:
+Install dependencies:
 
+```bash
+pip install pandas scikit-learn matplotlib wordcloud nltk
+```
+
+Run the notebook:
+
+```bash
 jupyter notebook Sentiment_Analysis_of_Amazon_Product_Reviews_in_Python.ipynb
+```
+
 Run all cells sequentially to perform data cleaning, feature extraction, model training, evaluation, and visualization.
 
+---
+
 ## License
+
 This project is licensed under the MIT License.
-
-
