@@ -47,3 +47,24 @@ Install dependencies with:
 
 ```bash
 pip install pandas scikit-learn matplotlib wordcloud nltk
+
+How to Run
+Clone or download this repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+Open the Jupyter notebook:
+
+bash
+Copy
+Edit
+jupyter notebook Sentiment_Analysis_of_Amazon_Product_Reviews_in_Python.ipynb
+Run all cells sequentially to perform data cleaning, feature extraction, model training, evaluation, and visualization.
+
+License
+This project is licensed under the MIT License.
+
+
